@@ -32,3 +32,20 @@ void main()
  printf("\n Average Waiting Time %4.2f",awt);
  printf("\n Average Turnaround Time %4.2f",atat);
 }
+/*
+O/P:
+Output:
+Enter number of processors:
+2
+Enter the Burst Time of the process 120
+Enter the Burst Time of the process 230
+FIRST COME FIRST SERVE SCHEDULING ALGORITHM 
+
+Process ID 	 Waiting Time 	 Turn Around Time 
+1 		               0 		        20 
+
+2 		              20 		        50
+
+Average Waiting Time 10.00
+Average Turnaround Time 35.00
+*/
