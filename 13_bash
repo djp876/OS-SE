@@ -1,0 +1,21 @@
+Read a
+Read b
+Sum=` expr $a + $b `
+Echo “$sum”
+Sub=`expr $a - $b`
+Echo”$sub”
+Sub=`expr $a \*$b `
+Echo “$mul”
+Div=`expr $a / $b `
+Echo “div”
+Mod=`expr $a % $b `
+Echo “mod”
+
+Output:
+20
+10
+30
+10
+200
+2
+0
