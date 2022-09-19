@@ -1,0 +1,38 @@
+12. Basics of UNIX commands. 
+
+Cat command:
+The ‘cat’ server command is used to display text files. It can also 
+be used for copying, combining and creating new text files.
+$ cat > sample1
+This is sample1
+(press ctrl+D to return to command prompt)
+$cat sample1
+(displays file content)
+This is sample1
+$cat > sample2
+This is sample2
+$cat sample1 sample2 > sample
+$cat sample
+This is sample1
+This is sample2
+Cal command:
+The ‘$ cal’ means calendar and it simply display calendar on to 
+your screen.
+Ex: $cal
+September 2022 
+Su Mo Tu We Th Fr Sa 
+ 1 2 3 
+ 4 5 6 7 8 9 10 
+11 12 13 14 15 16 17 
+18 19 20 21 22 23 24 
+25 26 27 28 29 30
+ls command:
+Displays contents of directory
+Ex: $ls
+file.txt sample.c file2.cpp
+Rm command:
+The ‘$ rm ‘ command for remove and the ‘-r’ simply recursively 
+deletes file. Try ‘$ rm filename.txt’ at your terminal 
+Ex: $rm file.txt
+$ls
+sample.c file2.cpp
